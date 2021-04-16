@@ -1,0 +1,275 @@
+.carousel-yacht{
+    position: relative;
+    margin-top: -12vh;
+    z-index: -1;
+
+    img{
+        height: 60vw;
+        width: 100%;
+    }
+}
+
+.container-content{
+  width: 80%;
+    margin: auto;
+    margin-top: -5%;
+    height: auto;
+    border: solid black 2px;
+    background-color: #fff;
+    z-index: 1;
+    margin-bottom: 40vh;
+    padding: 5px;
+
+    .yacht-title{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lorem{
+        margin: 2vh;
+        font-size: 10px;
+    }
+
+    .carousel-content {
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-direction: column;
+
+      .carte{
+        width: 180px;
+        height: 320px;
+        position: relative;
+        border: solid black 1px;
+        margin: 10px;
+        color: rgb(0, 0, 0);
+        display: grid;
+        grid-template: repeat(2,100px) 50px repeat(2,100px) 80px repeat(3, 110px);
+        border-radius: 3px;
+
+        .titre{
+            background-color: rgba(243, 124, 124, 0.178);
+        }
+
+        .tab span{
+            font-size: 10px;
+            color: lightgreen;
+            margin-left: 5px;
+        }
+
+        .info p {
+            font-size: 15px;
+        }
+
+        .btnSection{
+            display: flex;
+            font-size: 10px;
+
+            p {
+                margin-right: 20px;
+            }
+            
+            button {
+                background-color: blue;
+                color: #fff;
+                margin-left: 40px;
+                margin-bottom: 5px;
+
+            }
+        }
+
+    }
+    }
+}
+
+.div-content{
+
+  .option-img {
+      text-align: center;
+      margin: 5px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+
+      span{
+          border-radius: 10px;
+          color: #fff;
+          background-color: blue;
+          padding: 5px;
+      }
+    }
+
+  .text-component p{
+      font-size: 15px;
+  }
+  
+  
+  .lesplus-map{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  
+
+
+    .lesPlus{
+      padding: 10%;
+      background-color: blue;
+      height: 100%;
+    }
+    
+    .map-content{
+      height: 100%;
+        iframe {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  
+    
+
+  li{
+    font-size: 0.8rem;
+  }
+    
+}
+
+.div-content{
+
+  .Recap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    // padding: var(--space-sm);
+    .Récapitulatif{
+        border: 2px solid black;
+        text-align: center;
+        
+        h1{
+            margin: 5%;
+            color: orange;
+            font-size: 1.5rem;
+        }
+        h2{
+            
+            font-size: 1.3rem;
+        }
+        p{
+            font-size: 0.7rem;
+        }
+        
+        input{
+            margin-top: 5%;
+        }
+        Select{
+            margin-top: 5%;
+        }
+        .Lorem{
+            margin-top: 5%;
+            font-weight: bold;
+        }
+        
+    }
+  }
+  
+}
+.div-content .book-button{
+    margin-top: 5%;
+    background-color: orange;
+    width: 100%;
+    height:10vh
+}
+
+.div-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+
+  .div-date{
+    color: #fff;
+    background-color: blue;
+    border: solid 1px black;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    button{
+      background-color: orange;
+    }
+  }
+}
+
+.carousel-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .carousel-section-title{
+
+  }
+
+  .carousel-section-content{
+    
+  }
+
+
+
+}
+
+
+  .div-equipage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .carte-equipage{
+    
+      border: solid black 1px;
+      margin: 10px;
+      
+        .titre{
+            background-color: rgba(243, 124, 124, 0.178);
+            font-size: 14px;
+
+        }
+
+        .tab span{
+            font-size: 10px;
+            color: lightgreen;
+            margin-left: 5px;
+        }
+
+        .info p {
+            font-size: 12px;
+        }
+
+        .btnSection{
+            display: flex;
+            font-size: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            p {
+                margin-right: 20px;
+            }
+            
+            button {
+                background-color: blue;
+                color: #fff;
+                padding: 10px;
+
+            }
+        }
+    }
+  }
+

@@ -1,0 +1,40 @@
+.back{
+    background-image: url("/assets/images/bg.jpg") ;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    text-align: center;
+    width: 100%;
+    padding-top: 14vh;
+
+    h1{
+        padding: 10vh;
+        color: #fff;
+    }
+
+    h4{
+        color: #fff;
+        margin-bottom: 10px;
+
+    }
+
+    .notified {
+
+        margin-bottom: 10vh;
+        padding: 10px;
+    
+        button{
+            color: #fff;
+            background-color: blue;
+        }
+    }
+
+    .sign-up button{
+        background-color: orange;
+        height: 50px;
+        margin-bottom: 15%;
+    }
+}
+

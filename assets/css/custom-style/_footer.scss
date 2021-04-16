@@ -1,0 +1,100 @@
+/* -------------------------------- 
+
+File#: _1_main-footer
+Title: Main Footer
+Descr: Footer navigation
+Usage: codyhouse.co/license
+
+-------------------------------- */
+
+footer{
+    background-color: blue;
+    
+    .container{
+        h4{
+            color: white;
+        }
+    }
+}
+
+
+.main-footer__logo {
+  display: inline-block;
+
+  svg, img {
+    display: block;
+  }
+}
+
+.main-footer__link {
+  color: var(--color-contrast-medium);
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: var(--color-contrast-high);
+    text-decoration: underline;
+  }
+}
+
+.main-footer__social {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--color-contrast-medium);
+
+  &:hover {
+    color: var(--color-contrast-high);
+  }
+
+  .icon {
+    font-size: 1.2em; // icon size
+  }
+
+  @include breakpoint(md) {
+    .icon {
+      font-size: 1em;
+    }
+  }
+}
+.grid .gap-lg{
+    margin-left: 35%;
+}
+
+/* -------------------------------- 
+
+File#: _1_social-sharing
+Title: Social Sharing
+Descr: Social sharing plugin
+Usage: codyhouse.co/license
+
+-------------------------------- */
+
+.sharebar {
+    padding-bottom: 5%;
+}
+
+.sharebar__btn {
+  display: inline-block;
+  padding: var(--space-sm);
+  background: var(--color-contrast-lower);
+  border-radius: 50%;
+  transition: .2s;
+
+  
+
+  .icon {
+    display: block;
+    color: var(--color-contrast-high);
+    transition: color .2s;
+    font-size: 0.8em;
+  }
+
+  &:hover {
+    background-color: var(--color-bg);
+    box-shadow: var(--shadow-sm);
+
+    .icon {
+      color: var(--color-primary);
+    }
+  }
+}
